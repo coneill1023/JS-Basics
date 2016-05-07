@@ -19,8 +19,7 @@ function isTyler(name) {
 //Create a function called getName that uses prompt() to prompt the user for their name, then returns the name.
 
 function getName() {
-  var userName = prompt("Name?");
-  return userName;
+  return prompt("Name?");
 }
 
 
@@ -52,7 +51,7 @@ Parameter is variable in the declaration of function. Argument is the actual val
 //What are all the falsy values in JavaScript and how do you check if something is falsy?
 
 0,"",undefined, null, false, NaN
-!
+if (!x)
 
 
 //////////////////PROBLEM 6////////////////////
@@ -61,7 +60,7 @@ Parameter is variable in the declaration of function. Argument is the actual val
 
 //Create a function called myName that returns your name
 
-function myName(Chris) {
+function myName() {
   return Chris;
 }
 
@@ -69,11 +68,11 @@ function myName(Chris) {
 
 //Now save the function definition of myName into a new variable called newMyName
 
-var newMyName = myName("Chris");
+var newMyName = myName;
 
 //Now alert the result of invoking newMyName
 
-alert(newMyName);
+alert(newMyName());
 
 //////////////////PROBLEM 7////////////////////
 
@@ -92,3 +91,5 @@ function outerFn () {
 var innerFn = outerFn();
 
 //Now invoke innerFn.
+
+innerFn();
