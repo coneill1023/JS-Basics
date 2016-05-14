@@ -42,7 +42,7 @@ function welcome() {
 
 //What is the difference between arguments and parameters?
 
-Parameter is variable in the declaration of function. Argument is the actual value of this variable that gets passed to function.
+// Parameter is variable in the declaration of function. Argument is the actual value of this variable that gets passed to function.
 
 //////////////////PROBLEM 5////////////////////
 
@@ -50,8 +50,8 @@ Parameter is variable in the declaration of function. Argument is the actual val
 
 //What are all the falsy values in JavaScript and how do you check if something is falsy?
 
-0,"",undefined, null, false, NaN
-if (!x)
+// 0,"",undefined, null, false, NaN
+// if (!x)
 
 
 //////////////////PROBLEM 6////////////////////
@@ -61,7 +61,7 @@ if (!x)
 //Create a function called myName that returns your name
 
 function myName() {
-  return Chris;
+  return "Chris";
 }
 
 
